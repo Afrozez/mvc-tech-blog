@@ -1,0 +1,14 @@
+.navbar-links {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 150%;
+}
+
+#navHeader {
+    padding: 10px 0 25px 50px;
+    font-size: 200%;
+}
+
+#navbar {
+    background-color: lightblue;
+}
