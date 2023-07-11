@@ -1,3 +1,6 @@
+body {
+    background-color: lightgrey;
+}
 .navbar-links {
     display: flex;
     justify-content: space-evenly;
@@ -11,4 +14,45 @@
 
 #navbar {
     background-color: lightblue;
+}
+#post-box {
+    border: 10px solid black;
+    border-radius: 15px;
+    margin: 10px 100px;
+
+}
+#post-topic-background {
+    background-color: black;
+    border: black 1px solid;
+}
+#post-subject-text {
+    color:aliceblue;
+    margin-left: 20px;
+}
+#post-content {
+    margin: 25px 50px;
+}
+.signup-login-input {
+    margin: 25px;
+    width: 85%;
+    height: 30px;
+}
+.signup-login-text {
+    padding-left: 30px;
+}
+
+#signup-button {
+    font-size: 30px;
+}
+#login-instead-button {
+    font-size: 30px;
+}
+.login-instead-button-flexbox {
+    display: flex;
+    justify-content: center;
+}
+
+.destroy-decoration {
+    text-decoration: none;
+    color: black;
 }

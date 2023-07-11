@@ -2,17 +2,16 @@ const path = require("path");
 const router = require('express').Router()
  
 router.get("/", (req, res) => {
-    res.render('login');
+    res.render('forumPosts');
  });
 
 router.get("/signup", (req, res) => {
     res.render('signup')
 });
 
-router.get("/signup", (req, res) => {
-    res.sendFile(path.join(__dirname, "../public/login.html"));
-}); 
-
+router.get("/login", (req, res) => {
+    res.render('login')
+});
 
 
 module.exports = router;
