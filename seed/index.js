@@ -1,3 +1,3 @@
-const postsSeed = require('./post-seeds');
+const postsSeed = require('./seed');
 
 seedPosts()

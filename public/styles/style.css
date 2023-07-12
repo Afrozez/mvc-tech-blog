@@ -44,13 +44,6 @@ body {
 #signup-button {
     font-size: 30px;
 }
-#login-instead-button {
-    font-size: 30px;
-}
-.login-instead-button-flexbox {
-    display: flex;
-    justify-content: center;
-}
 
 .destroy-decoration {
     text-decoration: none;
